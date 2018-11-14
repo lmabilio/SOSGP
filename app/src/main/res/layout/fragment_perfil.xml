@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".AnamneseActivityActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:showIn="@layout/activity_anamnese">
+
+        <TextView
+            android:id="@+id/tNomeCompl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:text="Nome: "
+            android:textColor="#b40431"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvNomeCompl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tNomeCompl"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            tools:ignore="NotSibling" />
+
+        <TextView
+            android:id="@+id/tIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNomeCompl"
+            android:ems="10"
+            android:text="Idade: "
+            android:textColor="#b40431"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tIdade"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tSangue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvIdade"
+            android:ems="10"
+            android:text="Tipo Sanguineo: "
+            android:textColor="#b40431"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvSangue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tSangue"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tPressao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSangue"
+            android:ems="10"
+            android:text="Pressao Arterial: "
+            android:textColor="#b40431"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvPressao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tPressao"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tDiabete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPressao"
+            android:ems="10"
+            android:text="Diabetes: "
+            android:textColor="#b40431"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvDiabete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tDiabete"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tAlergia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDiabete"
+            android:ems="10"
+            android:text="Alergia: "
+            android:textColor="#b40431"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvAlergia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tAlergia"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAlergia"
+            android:ems="10"
+            android:text="Endereço: "
+            android:textColor="#b40431"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tEndereco"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:id="@+id/tBairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEndereco"
+            android:ems="10"
+            android:text="Bairro: "
+            android:textColor="#b40431"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvBairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tBairro"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

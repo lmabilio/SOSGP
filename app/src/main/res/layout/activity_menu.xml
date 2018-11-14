@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="#ffc7d4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/btnBombeiro"
+            android:layout_width="wrap_content"
+            android:layout_height="139dp"
+            android:layout_marginTop="50px"
+            app:srcCompat="@drawable/btn_bomb"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/btnPolicia"
+            android:layout_width="wrap_content"
+            android:layout_height="139dp"
+            android:layout_marginTop="50px"
+            app:srcCompat="@drawable/btn_pol"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="192dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/btnAmbulancia"
+            android:layout_width="wrap_content"
+            android:layout_height="139dp"
+            app:srcCompat="@drawable/btn_amb"
+            android:layout_marginTop="50px"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
