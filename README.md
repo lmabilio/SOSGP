@@ -1,5 +1,8 @@
-SOS-GP Server API
-Este projeto está sendo desenvolvido em Java (Android)
+SOS-GP é um projeto de trabalho de conclusão de curso da UTFPR (Universidade Tecnológica Federal do Paraná)
+Desenvolvido pela aluno Luciano Marreiro Abilio
+
+
+Este projeto está sendo desenvolvido em Java (Android).
 
 O sistema SOS-GP tem como objetivo permitir que deficientes auditivos façam chamadas de emergência e urgência ao Corpo de Bombeiros da região de Guarapuava por meio de mensagens de texto, envio de imagens e o envio da sua localização através de GPS.
 
