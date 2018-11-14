@@ -1,4 +1,4 @@
-<h3><b>SOS-GP<br></h3>
+<h3><b>SOS-GP<br></h3></b>
   
 É um projeto de trabalho de conclusão de curso da UTFPR (Universidade Tecnológica Federal do Paraná)
 Desenvolvido pela aluno Luciano Marreiro Abilio
