@@ -74,6 +74,8 @@ public class MenuActivity extends AppCompatActivity {
 
                                                         if (result.get("retorno").getAsString().equals("YES")) {
                                                             Toast.makeText(getBaseContext(), "Contato cadastrado com sucesso!", Toast.LENGTH_LONG).show();
+                                                            String a = result.get("name_user").getAsString();
+                                                            int b = result.get("contact_user").getAsInt();
 
                                                             SQLiteHelper db = new SQLiteHelper(getBaseContext());
                                                             db.saveContact(Integer.parseInt(id_user), result.get("contact_user").getAsInt(), result.get("name_user").getAsString());
