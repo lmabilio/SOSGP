@@ -1,7 +1,7 @@
 <h3><b>SOS-GP<br></h3></b>
   
 É um projeto de trabalho de conclusão de curso da UTFPR (Universidade Tecnológica Federal do Paraná)
-Desenvolvido pela aluno Luciano Marreiro Abilio
+desenvolvido pelo aluno Luciano Marreiro Abilio
 
 
 Este projeto está sendo desenvolvido em Java (Android).
